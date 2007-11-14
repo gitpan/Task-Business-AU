@@ -3,7 +3,7 @@ package Task::Business::AU;
 use strict;
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.01';
+	$VERSION = '0.02';
 }
 
 1;
@@ -27,11 +27,9 @@ the development of Australia-specific Business:: modules, and
 provide a single C< cpan Task::Business::AU > command that can be
 used to install all the modules in one hit.
 
-
-
 =head1 AUTHOR
 
-Adam Kennedy E<lt>cpan@ali.asE<gt>
+Adam Kennedy E<lt>adamk@cpan.orgE<gt>
 
 =head1 SEE ALSO
 
@@ -39,7 +37,7 @@ L<Task>, L<http://phase-n.com/>
 
 =head1 COPYRIGHT
 
-Copyright 2006 Adam Kennedy. All rights reserved.
+Copyright 2006 Adam Kennedy.
 
 This program is free software; you can redistribute
 it and/or modify it under the same terms as Perl itself.
